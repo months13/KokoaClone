@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
 @import "reset.css";
-@import "welcome-header.css";
 @import "variables.css";
+
+@import "welcome-header.css";
+
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login-form.css";

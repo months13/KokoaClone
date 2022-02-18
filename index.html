@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="css/styles.css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Kokoa Talk</title>
-</head>
-<body>
-  <div class = "status-bar">
-    <div class="status-bar__column">
-      <span>No Service</span>
-      <i class="fa-solid fa-wifi"></i>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <!--Status Bar-->
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>13:50</span>
+      </div>
+      <div class="status-bar__column">
+        <span>52%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+      </div>
     </div>
-    <div class="status-bar__column">
-      <span>13:50</span>
-    </div>
-    <div class="status-bar__column">
-      <span>52%</span>
-      <i class="fa-solid fa-battery-half fa-lg"></i>
-    </div>
-  </div>
 
-  <header class = "welcome-header">
-    <h1 class ="welcome-header__title">Welcome to Kokoa Clone</h1>
-    <p class ="welcome-header__description">
-      If you have a kokoa account, log in with your email or phone number.
-    </p>
-  </header>
+    <header class="welcome-header">
+      <!--Header-->
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__description">
+        If you have a kokoa account, log in with your email or phone number.
+      </p>
+    </header>
 
-  <form action = "friends.html" method = "" id = "login-form">
-    <input name = "username" type = "text" placeholder = "Email or phone number" required = "required"/>
-    <input name = "password" type = "password" placeholder = "Password" required = "required" />
-    <input type = "submit" value = "Log In"/>
-    <input type = "submit" value = "Sign Up"/>
-    <a href="#">Find Kokoa Account or Password</a>
-  </form>
+    <form action="friends.html" method="" id="login-form">
+      <!--form-->
+      <input
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+        required="required"
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        required="required"
+      />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
 
-
-
-  <script src="https://kit.fontawesome.com/f1821fff34.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/f1821fff34.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
