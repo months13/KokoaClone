@@ -1,3 +1,4 @@
 # Kokoa-Clone
 
-to study html and css
+to study HTML and CSS
+
