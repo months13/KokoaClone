@@ -38,6 +38,7 @@ body {
     transform: rotatez(180deg);
   }
 }
+
 .long {
   display: flex;
   width: 70px;
@@ -63,6 +64,7 @@ body {
     transform: scaleY(0.6);
   }
 }
+
 .long__re:nth-child(1) {
   animation-delay: 0.5s;
 }
