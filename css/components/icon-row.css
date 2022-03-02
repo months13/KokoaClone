@@ -10,8 +10,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 90px;
 }
 
 .icon-row__icon i {

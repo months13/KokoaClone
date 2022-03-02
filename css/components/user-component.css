@@ -41,6 +41,10 @@
   font-size: 17px;
 }
 
+.user-component__subtitle i{
+  color:red;
+}
+
 
 .user-component__column:last-child{
   color:rgba(0,0,0,0.4);
